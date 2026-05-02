@@ -2166,11 +2166,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotStageSprites:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -3129506329548273041, guid: ff1f519742d59674c88b7a3e2de52335, type: 3}
+  - {fileID: -2691117744856354132, guid: 933619f5444577a46ae40258c47dbc54, type: 3}
+  - {fileID: -2950006760406987728, guid: ff6c644cc5343bb4abd78950a520f442, type: 3}
+  - {fileID: -1673592278040146913, guid: b7080e239e7dd2045a8a6e0c3cd57ab8, type: 3}
+  - {fileID: 5183037286942754606, guid: 0c5aeb6da23b66f45841f0145c76ff91, type: 3}
   placeholderColors:
   - {r: 1, g: 0.95, b: 0.2, a: 1}
   - {r: 0.95, g: 0.85, b: 0.2, a: 1}

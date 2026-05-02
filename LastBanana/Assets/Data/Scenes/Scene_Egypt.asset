@@ -16,7 +16,7 @@ MonoBehaviour:
   background: {fileID: 0}
   placeholderColor: {r: 0.85, g: 0.7, b: 0.4, a: 1}
   bananaRotStage: 2
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: -6866883281352615795, guid: 4e6296d9e96d6ed4082a0fc4163cd080, type: 3}
   npcName: Cleopatra
   npcPlaceholderColor: {r: 0.4, g: 0.2, b: 0.5, a: 1}
   backgroundMusic: {fileID: 0}
