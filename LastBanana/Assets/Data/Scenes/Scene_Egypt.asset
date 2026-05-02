@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eff8cf1150430464bb8ab0f6f09a89e4, type: 3}
+  m_Name: Scene_Egypt
+  m_EditorClassIdentifier: 
+  sceneTitle: "Ancient Egypt \u2014 30 BC"
+  background: {fileID: 0}
+  placeholderColor: {r: 0.85, g: 0.7, b: 0.4, a: 1}
+  bananaRotStage: 2
+  npcSprite: {fileID: 0}
+  npcName: Cleopatra
+  npcPlaceholderColor: {r: 0.4, g: 0.2, b: 0.5, a: 1}
+  backgroundMusic: {fileID: 0}
+  lines:
+  - speaker: Narrator
+    text: The time machine deposits you on a cold marble floor. Slightly browner
+      than before.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: "I survived! I\u2014 wait. Is that me? Am I getting browner?"
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: This is fine. I'm sure it's just the lighting.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Cleopatra
+    text: Bring forth the sacred relic from the heavens!
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: "Sacred wha\u2014"
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Cleopatra
+    text: You. Yellow one. You shall be embalmed and entombed for eternity, that
+      future generations may worship your radiant form.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: Okay so first of all, deeply flattered.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: Second of all, I'd really rather not.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  choices:
+  - label: Reveal you can talk. Demand to be released.
+    nextScene: {fileID: 11400000, guid: 79bdbcb2a1ac8e141922733e8533bf5a, type: 2}
+    startAtLineIndex: 0
+    endsGame: 0
+    endingText: 
+  - label: Pretend to be a god. Demand a chariot.
+    nextScene: {fileID: 11400000, guid: 79bdbcb2a1ac8e141922733e8533bf5a, type: 2}
+    startAtLineIndex: 0
+    endsGame: 0
+    endingText: 
+  - label: Accept your mummy fate gracefully.
+    nextScene: {fileID: 0}
+    startAtLineIndex: 0
+    endsGame: 1
+    endingText: You are wrapped in linen and entombed for 2,000 years. In 1922, an
+      archaeologist opens your sarcophagus and immediately faints. You are now in
+      the British Museum. Some would call this a win. THE END.

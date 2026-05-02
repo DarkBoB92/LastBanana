@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eff8cf1150430464bb8ab0f6f09a89e4, type: 3}
+  m_Name: Scene_Diner
+  m_EditorClassIdentifier: 
+  sceneTitle: "Greendale, USA \u2014 1955"
+  background: {fileID: 0}
+  placeholderColor: {r: 0.55, g: 0.8, b: 0.7, a: 1}
+  bananaRotStage: 3
+  npcSprite: {fileID: 0}
+  npcName: Young Scientist
+  npcPlaceholderColor: {r: 0.9, g: 0.9, b: 0.85, a: 1}
+  backgroundMusic: {fileID: 0}
+  lines:
+  - speaker: Narrator
+    text: A jukebox plays. Checkered tiles. The smell of grease. You are sitting
+      on a counter.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: Okay. Okay. This is more my speed.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: I just need to find someone who can help me get home.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Young Scientist
+    text: Whoa. Are you... talking?
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: "YES. Hi. Hello. Listen \u2014 I need you to invent a time machine."
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Young Scientist
+    text: I'm seventeen.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: Perfect. You have decades.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Young Scientist
+    text: Also, I'm extremely allergic to potassium.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: ...
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: Of course you are.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  choices:
+  - label: Convince him to invent it anyway. For science.
+    nextScene: {fileID: 11400000, guid: 67c41e404d67f074c9bded5e394247f8, type: 2}
+    startAtLineIndex: 0
+    endsGame: 0
+    endingText: 
+  - label: Roll off the counter and hide in the trash.
+    nextScene: {fileID: 11400000, guid: 67c41e404d67f074c9bded5e394247f8, type: 2}
+    startAtLineIndex: 0
+    endsGame: 0
+    endingText: 
+  - label: Confess everything. Cause a paradox.
+    nextScene: {fileID: 0}
+    startAtLineIndex: 0
+    endsGame: 1
+    endingText: You explain time travel in detail. The teenager has a stroke. History
+      never produces a time machine. You are stranded in 1955 forever, slowly browning
+      in a diner booth. The waitress thinks you're 'a real character.' THE END

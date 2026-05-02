@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eff8cf1150430464bb8ab0f6f09a89e4, type: 3}
+  m_Name: Scene_Cretaceous
+  m_EditorClassIdentifier: 
+  sceneTitle: "Cretaceous Period \u2014 66,000,000 BC"
+  background: {fileID: 0}
+  placeholderColor: {r: 0.2, g: 0.4, b: 0.2, a: 1}
+  bananaRotStage: 1
+  npcSprite: {fileID: 0}
+  npcName: T-Rex
+  npcPlaceholderColor: {r: 0.5, g: 0.2, b: 0.15, a: 1}
+  backgroundMusic: {fileID: 0}
+  lines:
+  - speaker: Narrator
+    text: The time machine sputters. The dashboard groans. Something is very wrong.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: "Where... where am I? And more importantly \u2014 why am I conscious?"
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: Oh god. I'm a banana. I'm a sentient banana.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: "This is fine. This is fine. I just need to find my owner and\u2014"
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Narrator
+    text: A shadow falls over you. A very, very large shadow.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: T-Rex
+    text: RAAAAAAAARRRGH
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: Right. Yes. Of course. Tyrannosaurus Rex. The classic.
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  - speaker: Banana
+    text: Think, banana. Think. What are my options here?
+    speakerSprite: {fileID: 0}
+    rotStageOverride: 0
+    sfx: {fileID: 0}
+  choices:
+  - label: Play Dead.
+    nextScene: {fileID: 11400000, guid: bd57a07d65503d54f8cb498e79bc999b, type: 2}
+    startAtLineIndex: 0
+    endsGame: 0
+    endingText: 
+  - label: Stand up tall and yell "I AM A GOD."
+    nextScene: {fileID: 11400000, guid: bd57a07d65503d54f8cb498e79bc999b, type: 2}
+    startAtLineIndex: 0
+    endsGame: 0
+    endingText: 
+  - label: Offer yourself as tribute.
+    nextScene: {fileID: 0}
+    startAtLineIndex: 0
+    endsGame: 1
+    endingText: You bravely leap into the T-Rex's mouth. The T-Rex chokes. The T-Rex
+      dies. Scientists will later blame an asteroid. They will be wrong. THE END.
