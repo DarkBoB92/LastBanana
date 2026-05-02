@@ -2,6 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class SceneController : MonoBehaviour
     private int currentLineIndex;
     private bool waitingForChoice;
     private bool sceneFinished;
+    private bool isLoadingScene;
 
     void Start()
     {
@@ -46,7 +48,17 @@ public class SceneController : MonoBehaviour
 
     void Update()
     {
-        if (sceneFinished || waitingForChoice) return;
+        // restart on click while ending is shown
+        if (sceneFinished && endingPanel && endingPanel.activeSelf)
+        {
+            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
+            return;
+        }
+
+        if (sceneFinished || waitingForChoice || isLoadingScene) return;
         if (currentScene == null) return;
 
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
@@ -58,6 +70,8 @@ public class SceneController : MonoBehaviour
 
     private IEnumerator LoadScene(SceneData scene, int startAtLine = 0)
     {
+        isLoadingScene = true;
+
         currentScene = scene;
         currentLineIndex = startAtLine;
         sceneFinished = false;
@@ -109,6 +123,8 @@ public class SceneController : MonoBehaviour
             titleCardPanel.SetActive(false);
         }
 
+        isLoadingScene = false;
+
         // start dialogue
         ShowCurrentLine();
     }
@@ -152,6 +168,7 @@ public class SceneController : MonoBehaviour
 
         if (choice.endsGame)
         {
+            EndingsRegistry.Unlock(choice.endingId);
             ShowEnding(choice.endingText);
             return;
         }

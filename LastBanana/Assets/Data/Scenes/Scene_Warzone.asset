@@ -71,14 +71,20 @@ MonoBehaviour:
     endingText: You become the Banana Messiah. You unite the fruit. You are loved.
       You are also extremely brown by this point. You die a hero, three days later,
       of natural causes. Statues are erected. THE END.
+    endingId: war_messiah
+    endingTitle: The Banana Messiah
   - label: Defect to the apples. Snitch on the bananas.
     nextScene: {fileID: 0}
     startAtLineIndex: 0
     endsGame: 1
     endingText: Your betrayal becomes the central tragedy of the Fruit Wars. They
       write operas about you. None of them are flattering. THE END.
+    endingId: war_traitor
+    endingTitle: The Operatic Tragedy
   - label: Sneak back to the time machine. This isn't your fight.
     nextScene: {fileID: 11400000, guid: faa8e3fd09e3dea4ab7b942722c35c92, type: 2}
     startAtLineIndex: 0
     endsGame: 0
     endingText: 
+    endingId: 
+    endingTitle: 

@@ -78,11 +78,15 @@ MonoBehaviour:
     startAtLineIndex: 0
     endsGame: 0
     endingText: 
+    endingId: 
+    endingTitle: 
   - label: Roll off the counter and hide in the trash.
     nextScene: {fileID: 11400000, guid: 67c41e404d67f074c9bded5e394247f8, type: 2}
     startAtLineIndex: 0
     endsGame: 0
     endingText: 
+    endingId: 
+    endingTitle: 
   - label: Confess everything. Cause a paradox.
     nextScene: {fileID: 0}
     startAtLineIndex: 0
@@ -90,3 +94,5 @@ MonoBehaviour:
     endingText: You explain time travel in detail. The teenager has a stroke. History
       never produces a time machine. You are stranded in 1955 forever, slowly browning
       in a diner booth. The waitress thinks you're 'a real character.' THE END
+    endingId: diner_paradox
+    endingTitle: A Real Character

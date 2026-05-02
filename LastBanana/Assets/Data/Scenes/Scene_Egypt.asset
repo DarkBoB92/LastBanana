@@ -69,11 +69,15 @@ MonoBehaviour:
     startAtLineIndex: 0
     endsGame: 0
     endingText: 
+    endingId: 
+    endingTitle: 
   - label: Pretend to be a god. Demand a chariot.
     nextScene: {fileID: 11400000, guid: 79bdbcb2a1ac8e141922733e8533bf5a, type: 2}
     startAtLineIndex: 0
     endsGame: 0
     endingText: 
+    endingId: 
+    endingTitle: 
   - label: Accept your mummy fate gracefully.
     nextScene: {fileID: 0}
     startAtLineIndex: 0
@@ -81,3 +85,5 @@ MonoBehaviour:
     endingText: You are wrapped in linen and entombed for 2,000 years. In 1922, an
       archaeologist opens your sarcophagus and immediately faints. You are now in
       the British Museum. Some would call this a win. THE END.
+    endingId: egypt_mummy
+    endingTitle: Cultural Heritage

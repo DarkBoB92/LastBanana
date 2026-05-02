@@ -80,3 +80,5 @@ MonoBehaviour:
     endingText: You become the finest loaf of banana bread the kitchen has ever produced.
       The owner posts a photo. It gets 47 likes. You would have wanted it this way.
       THE END.
+    endingId: kitchen_bread
+    endingTitle: Banana Bread

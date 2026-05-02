@@ -67,14 +67,20 @@ MonoBehaviour:
     startAtLineIndex: 0
     endsGame: 0
     endingText: 
+    endingId: 
+    endingTitle: 
   - label: Stand up tall and yell "I AM A GOD."
     nextScene: {fileID: 11400000, guid: bd57a07d65503d54f8cb498e79bc999b, type: 2}
     startAtLineIndex: 0
     endsGame: 0
     endingText: 
+    endingId: 
+    endingTitle: 
   - label: Offer yourself as tribute.
     nextScene: {fileID: 0}
     startAtLineIndex: 0
     endsGame: 1
     endingText: You bravely leap into the T-Rex's mouth. The T-Rex chokes. The T-Rex
       dies. Scientists will later blame an asteroid. They will be wrong. THE END.
+    endingId: trex_sacrifice
+    endingTitle: The Asteroid Theory
