@@ -16,7 +16,7 @@ MonoBehaviour:
   background: {fileID: 0}
   placeholderColor: {r: 0.3, g: 0.3, b: 0.35, a: 1}
   bananaRotStage: 4
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: -3680981928472756049, guid: 2ab9ec0a606054942ab7116f8df1b447, type: 3}
   npcName: Apple General
   npcPlaceholderColor: {r: 0.7, g: 0.1, b: 0.15, a: 1}
   backgroundMusic: {fileID: 0}
