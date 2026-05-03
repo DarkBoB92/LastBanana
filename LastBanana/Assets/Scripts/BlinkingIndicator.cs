@@ -4,13 +4,10 @@ using TMPro;
 [RequireComponent(typeof(TextMeshProUGUI))]
 public class BlinkingIndicator : MonoBehaviour
 {
-    [Tooltip("How fast the indicator blinks (cycles per second)")]
     public float blinkRate = 2f;
 
-    [Tooltip("Lowest alpha during blink (0 = fully invisible, 1 = fully visible)")]
     [Range(0f, 1f)] public float minAlpha = 0.1f;
 
-    [Tooltip("Highest alpha during blink")]
     [Range(0f, 1f)] public float maxAlpha = 1f;
 
     private TextMeshProUGUI text;
@@ -19,7 +16,6 @@ public class BlinkingIndicator : MonoBehaviour
 
     void OnEnable()
     {
-        // reset to visible immediately when re-enabled
         if (text != null) SetAlpha(maxAlpha);
     }
 

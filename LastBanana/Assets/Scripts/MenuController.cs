@@ -18,7 +18,7 @@ public class MenuController : MonoBehaviour
     public Button backButton;
 
     [Header("Ending Entry Prefab")]
-    public GameObject endingEntryPrefab; // a TextMeshProUGUI inside a layout-friendly container
+    public GameObject endingEntryPrefab;
 
     [Header("Game Scene")]
     public string gameSceneName = "Main";

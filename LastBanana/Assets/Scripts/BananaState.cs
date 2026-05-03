@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class BananaState : MonoBehaviour
 {
-    [Header("Rot Stage Sprites (drop in when art is ready)")]
+    [Header("Rot Stage Sprites")]
     public Sprite[] rotStageSprites = new Sprite[5];
 
-    [Header("Placeholder Colors (used when sprite is null)")]
+    [Header("Placeholder Colors")]
     public Color[] placeholderColors = new Color[]
     {
         new Color(1f, 0.95f, 0.2f),   // bright yellow
@@ -17,7 +17,7 @@ public class BananaState : MonoBehaviour
 
     [Header("References")]
     public SpriteRenderer bananaRenderer;
-    public TMPro.TextMeshPro placeholderLabel; // optional, only used in placeholder mode
+    public TMPro.TextMeshPro placeholderLabel;
 
     private int currentStage = 1;
     public int CurrentStage => currentStage;

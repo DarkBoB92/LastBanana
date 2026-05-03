@@ -38,7 +38,7 @@ public static class EndingsRegistry
     public static int UnlockedCount()
     {
         int count = 0;
-        foreach (var e in AllEndings) if (IsUnlocked(e.id)) count++;
+        foreach (EndingInfo e in AllEndings) if (IsUnlocked(e.id)) count++;
         return count;
     }
 
@@ -47,7 +47,7 @@ public static class EndingsRegistry
     // for testing — wipe all unlocks
     public static void ResetAll()
     {
-        foreach (var e in AllEndings) PlayerPrefs.DeleteKey(PrefKeyPrefix + e.id);
+        foreach (EndingInfo e in AllEndings) PlayerPrefs.DeleteKey(PrefKeyPrefix + e.id);
         PlayerPrefs.Save();
     }
 }

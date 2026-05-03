@@ -11,7 +11,7 @@ public class Choice
     [TextArea(1, 4)]
     public string endingText;       
 
-    [Header("Ending tracking (only used if endsGame is true)")]
+    [Header("Ending tracking")]
     public string endingId;       
     public string endingTitle;    
 }

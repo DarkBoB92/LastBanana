@@ -5,15 +5,15 @@ using UnityEngine;
 public class SceneData : ScriptableObject
 {
     [Header("Scene Identity")]
-    public string sceneTitle;       // e.g. "Cretaceous Period — 66,000,000 BC"
-    public Sprite background;       // null = solid color placeholder
+    public string sceneTitle;       
+    public Sprite background;      
     public Color placeholderColor = new Color(0.2f, 0.4f, 0.2f);
 
     [Header("Banana State")]
-    public int bananaRotStage = 1;  // 1..5
+    public int bananaRotStage = 1; 
 
     [Header("NPCs in Scene")]
-    public Sprite npcSprite;        // the main NPC for this scene; null = colored placeholder
+    public Sprite npcSprite;      
     public string npcName = "NPC";
     public Color npcPlaceholderColor = new Color(0.7f, 0.3f, 0.3f);
 

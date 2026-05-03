@@ -48,7 +48,6 @@ public class SceneController : MonoBehaviour
 
     void Update()
     {
-        // restart on click while ending is shown
         if (sceneFinished && endingPanel && endingPanel.activeSelf)
         {
             if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
@@ -89,6 +88,9 @@ public class SceneController : MonoBehaviour
             backgroundRenderer.color = scene.placeholderColor;
         }
 
+        SpriteFitToCamera fitter = backgroundRenderer.GetComponent<SpriteFitToCamera>();
+        if (fitter != null) fitter.Fit();
+
         // npc
         if (scene.npcSprite != null)
         {
@@ -103,7 +105,6 @@ public class SceneController : MonoBehaviour
             if (npcPlaceholderLabel) npcPlaceholderLabel.text = scene.npcName;
         }
 
-        // banana rot stage
         banana.SetStage(scene.bananaRotStage);
 
         // music
@@ -125,7 +126,6 @@ public class SceneController : MonoBehaviour
 
         isLoadingScene = false;
 
-        // start dialogue
         ShowCurrentLine();
     }
 

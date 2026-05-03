@@ -26,7 +26,7 @@ public class ChoiceManager : MonoBehaviour
             var label = btn.GetComponentInChildren<TextMeshProUGUI>();
             if (label) label.text = choice.label;
 
-            var capturedChoice = choice; // closure capture
+            var capturedChoice = choice; 
             btn.onClick.AddListener(() => Select(capturedChoice));
             spawnedButtons.Add(btn);
         }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene_Egypt
   m_EditorClassIdentifier: 
   sceneTitle: "Ancient Egypt \u2014 30 BC"
-  background: {fileID: 0}
+  background: {fileID: -5929244363535438171, guid: f05d068eedc70a24b8e6268f7014852d, type: 3}
   placeholderColor: {r: 0.85, g: 0.7, b: 0.4, a: 1}
   bananaRotStage: 2
   npcSprite: {fileID: -6866883281352615795, guid: 4e6296d9e96d6ed4082a0fc4163cd080, type: 3}
