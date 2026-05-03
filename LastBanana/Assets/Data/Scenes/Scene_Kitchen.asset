@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene_Kitchen
   m_EditorClassIdentifier: 
   sceneTitle: "Home \u2014 Tuesday, 4:47 PM"
-  background: {fileID: 0}
+  background: {fileID: -370058386172005467, guid: 4c59c3eca7739a04aa45d07b0c4316cb, type: 3}
   placeholderColor: {r: 0.9, g: 0.85, b: 0.7, a: 1}
   bananaRotStage: 5
   npcSprite: {fileID: -5377789987342297270, guid: 408ee9cb6e5621d4aa4d7d0a8a83a18d, type: 3}

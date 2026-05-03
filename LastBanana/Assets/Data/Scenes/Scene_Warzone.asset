@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene_Warzone
   m_EditorClassIdentifier: 
   sceneTitle: "The Banana Wars \u2014 Year 3024"
-  background: {fileID: 0}
+  background: {fileID: 6435901539626685125, guid: e1f4b3c7e616ae74bb58a4779feb2222, type: 3}
   placeholderColor: {r: 0.3, g: 0.3, b: 0.35, a: 1}
   bananaRotStage: 4
   npcSprite: {fileID: -3680981928472756049, guid: 2ab9ec0a606054942ab7116f8df1b447, type: 3}

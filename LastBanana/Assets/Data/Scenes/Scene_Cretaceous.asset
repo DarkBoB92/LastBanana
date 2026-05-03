@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene_Cretaceous
   m_EditorClassIdentifier: 
   sceneTitle: "Cretaceous Period \u2014 66,000,000 BC"
-  background: {fileID: 0}
+  background: {fileID: 8039363396732377813, guid: c3242e0eef2226546879634197c03a8a, type: 3}
   placeholderColor: {r: 0.2, g: 0.4, b: 0.2, a: 1}
   bananaRotStage: 1
   npcSprite: {fileID: 4255262729638205492, guid: 800183d1d0a8371469ca4ff63e75b634, type: 3}
