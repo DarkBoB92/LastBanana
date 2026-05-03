@@ -16,7 +16,7 @@ MonoBehaviour:
   background: {fileID: 0}
   placeholderColor: {r: 0.55, g: 0.8, b: 0.7, a: 1}
   bananaRotStage: 3
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: 7983681851929198219, guid: 01f9f65eb50aa7940a797961789eb5f7, type: 3}
   npcName: Young Scientist
   npcPlaceholderColor: {r: 0.9, g: 0.9, b: 0.85, a: 1}
   backgroundMusic: {fileID: 0}

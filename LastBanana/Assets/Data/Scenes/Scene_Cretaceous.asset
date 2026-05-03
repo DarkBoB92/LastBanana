@@ -16,7 +16,7 @@ MonoBehaviour:
   background: {fileID: 0}
   placeholderColor: {r: 0.2, g: 0.4, b: 0.2, a: 1}
   bananaRotStage: 1
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: 4255262729638205492, guid: 800183d1d0a8371469ca4ff63e75b634, type: 3}
   npcName: T-Rex
   npcPlaceholderColor: {r: 0.5, g: 0.2, b: 0.15, a: 1}
   backgroundMusic: {fileID: 0}
