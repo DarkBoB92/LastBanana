@@ -19,7 +19,7 @@ MonoBehaviour:
   npcSprite: {fileID: -6866883281352615795, guid: 4e6296d9e96d6ed4082a0fc4163cd080, type: 3}
   npcName: Cleopatra
   npcPlaceholderColor: {r: 0.4, g: 0.2, b: 0.5, a: 1}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: fd694eccb39e77644bf9c50ea195dc36, type: 3}
   lines:
   - speaker: Narrator
     text: The time machine deposits you on a cold marble floor. Slightly browner

@@ -19,14 +19,14 @@ MonoBehaviour:
   npcSprite: {fileID: 7983681851929198219, guid: 01f9f65eb50aa7940a797961789eb5f7, type: 3}
   npcName: Young Scientist
   npcPlaceholderColor: {r: 0.9, g: 0.9, b: 0.85, a: 1}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: db6b1a58be1519b4c994d42150d31c23, type: 3}
   lines:
   - speaker: Narrator
     text: A jukebox plays. Checkered tiles. The smell of grease. You are sitting
       on a counter.
     speakerSprite: {fileID: 0}
     rotStageOverride: 0
-    sfx: {fileID: 0}
+    sfx: {fileID: 8300000, guid: 1f99cc9e25a32cb4a916512fdf1928cf, type: 3}
   - speaker: Banana
     text: Okay. Okay. This is more my speed.
     speakerSprite: {fileID: 0}

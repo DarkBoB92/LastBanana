@@ -19,7 +19,7 @@ MonoBehaviour:
   npcSprite: {fileID: 4255262729638205492, guid: 800183d1d0a8371469ca4ff63e75b634, type: 3}
   npcName: T-Rex
   npcPlaceholderColor: {r: 0.5, g: 0.2, b: 0.15, a: 1}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 15a55cb831d22904e8a7ed19595b6b13, type: 3}
   lines:
   - speaker: Narrator
     text: The time machine sputters. The dashboard groans. Something is very wrong.
@@ -50,7 +50,7 @@ MonoBehaviour:
     text: RAAAAAAAARRRGH
     speakerSprite: {fileID: 0}
     rotStageOverride: 0
-    sfx: {fileID: 0}
+    sfx: {fileID: 8300000, guid: 1d3e925bf73c4bb47abf3f148e70a58b, type: 3}
   - speaker: Banana
     text: Right. Yes. Of course. Tyrannosaurus Rex. The classic.
     speakerSprite: {fileID: 0}

@@ -19,7 +19,7 @@ MonoBehaviour:
   npcSprite: {fileID: -5377789987342297270, guid: 408ee9cb6e5621d4aa4d7d0a8a83a18d, type: 3}
   npcName: The Owner
   npcPlaceholderColor: {r: 0.95, g: 0.8, b: 0.65, a: 1}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: ad72923d4d1d9e64691ea86119cbc26b, type: 3}
   lines:
   - speaker: Narrator
     text: The time machine fizzles. The dashboard goes dark. You are home.

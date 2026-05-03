@@ -19,14 +19,14 @@ MonoBehaviour:
   npcSprite: {fileID: -3680981928472756049, guid: 2ab9ec0a606054942ab7116f8df1b447, type: 3}
   npcName: Apple General
   npcPlaceholderColor: {r: 0.7, g: 0.1, b: 0.15, a: 1}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: adcbf86e61734fc4f89ac9f9b8baf043, type: 3}
   lines:
   - speaker: Narrator
     text: Sirens. Smoke. The skyline is on fire. A faction of bananas is locked in
       battle with a faction of apples.
     speakerSprite: {fileID: 0}
     rotStageOverride: 0
-    sfx: {fileID: 0}
+    sfx: {fileID: 8300000, guid: 6d8b71d9d6f280b4eba0376be23a3926, type: 3}
   - speaker: Banana
     text: Oh come on.
     speakerSprite: {fileID: 0}
