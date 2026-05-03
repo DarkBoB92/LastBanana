@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene_Diner
   m_EditorClassIdentifier: 
   sceneTitle: "Greendale, USA \u2014 1955"
-  background: {fileID: 0}
+  background: {fileID: 2894524112537263929, guid: 5e9cbdc1db956c04e82eb1d3be16e8be, type: 3}
   placeholderColor: {r: 0.55, g: 0.8, b: 0.7, a: 1}
   bananaRotStage: 3
   npcSprite: {fileID: 7983681851929198219, guid: 01f9f65eb50aa7940a797961789eb5f7, type: 3}
