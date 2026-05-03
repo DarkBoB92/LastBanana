@@ -37,7 +37,6 @@ public class BananaState : MonoBehaviour
         }
         else
         {
-            // placeholder mode
             bananaRenderer.sprite = null;
             bananaRenderer.color = placeholderColors[idx];
             if (placeholderLabel) placeholderLabel.text = $"BANANA\nstage {currentStage}";

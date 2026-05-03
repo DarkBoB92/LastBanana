@@ -17,6 +17,13 @@ public class DialogueManager : MonoBehaviour
     [Header("Audio")]
     public AudioSource sfxSource;
 
+    [Header("Text Blip SFX")]
+    public AudioClip blipLow;       
+    public AudioClip blipHigh;      
+    [Tooltip("Play a blip every N characters. 1 = every char (loud!), 3 = every 3rd char (good default)")]
+    public int blipEveryNChars = 3;
+    [Range(0f, 1f)] public float blipVolume = 0.3f;
+
     private Coroutine typingRoutine;
     private string currentFullText;
     private bool isTyping;
@@ -55,13 +62,36 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
         float delay = 1f / Mathf.Max(1f, charactersPerSecond);
 
+        bool useLow = true; 
+        int charsTyped = 0;
+
         for (int i = 0; i < text.Length; i++)
         {
-            dialogueText.text += text[i];
+            char c = text[i];
+            dialogueText.text += c;
+
+            if (!char.IsWhiteSpace(c))
+            {
+                if (charsTyped % Mathf.Max(1, blipEveryNChars) == 0)
+                {
+                    PlayBlip(useLow);
+                    useLow = !useLow;
+                }
+                charsTyped++;
+            }
+
             yield return new WaitForSeconds(delay);
         }
 
         isTyping = false;
         if (continueIndicator) continueIndicator.SetActive(true);
+    }
+
+    private void PlayBlip(bool low)
+    {
+        if (sfxSource == null) return;
+        var clip = low ? blipLow : blipHigh;
+        if (clip == null) return;
+        sfxSource.PlayOneShot(clip, blipVolume);
     }
 }

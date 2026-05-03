@@ -32,6 +32,10 @@ public class SceneController : MonoBehaviour
 
     [Header("Audio")]
     public AudioSource musicSource;
+    [Header("Scene Transition Audio")]
+    public AudioSource sfxSource;
+    public AudioClip sceneTransitionSfx;
+    [Range(0f, 1f)] public float transitionVolume = 0.5f;
 
     private SceneData currentScene;
     private int currentLineIndex;
@@ -70,6 +74,8 @@ public class SceneController : MonoBehaviour
     private IEnumerator LoadScene(SceneData scene, int startAtLine = 0)
     {
         isLoadingScene = true;
+
+        if (sfxSource && sceneTransitionSfx) sfxSource.PlayOneShot(sceneTransitionSfx, transitionVolume);
 
         currentScene = scene;
         currentLineIndex = startAtLine;
